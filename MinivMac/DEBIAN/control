@@ -1,5 +1,5 @@
 Package: com.duncanyoyo1.minivmac
-Name: Mini vMac
+Name: MinivMac
 Architecture: iphoneos-arm
 Description: Mini vMac Mac emulator
 Depiction: http://duncanyoyo1.github.io/depic/minivmac.html
