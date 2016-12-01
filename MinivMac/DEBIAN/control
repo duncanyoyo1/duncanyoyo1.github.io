@@ -2,7 +2,7 @@ Package: io.github.duncanyoyo1.minivmac
 Name: Mini vMac
 Architecture: iphoneos-arm
 Description: Mini vMac Mac emulator
-Depiction: http://duncanyoyo1.github.io/Mini%20vMac/package.html
+Depiction: http://duncanyoyo1.github.io/MinivMac/package.html
 Depends: firmware (>= 7.0)
 Homepage: https://namedfork.net/minivmac
 Maintainer: Jesus A. Alvarez <zydeco@namedfork.net>
