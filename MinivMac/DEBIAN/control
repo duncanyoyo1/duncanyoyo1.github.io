@@ -3,7 +3,6 @@ Name: Mini vMac
 Architecture: iphoneos-arm
 Description: Mini vMac Mac emulator
 Depiction: http://duncanyoyo1.github.io/MinivMac/package.html
-Icon: http://duncanyoyo1.github.io/MinivMac/Cydiaicon.png
 Homepage: https://namedfork.net/minivmac
 Maintainer: Jesus A. Alvarez <zydeco@namedfork.net>
 Author: Jesus A. Alvarez <zydeco@namedfork.net>
