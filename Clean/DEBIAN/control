@@ -1,0 +1,10 @@
+Package: com.duncanyoyo1.shellclean
+Name: Dyy1’s Clean Script 
+Version: 1.1
+Architecture: iphoneos-arm
+Description: A simple script to stop atc.atwakeup and set the priority of backboardd and SpringBoard to use rum shell clean from a terminal or ssh session
+Depiction: http://duncanyoyo1.github.io/clean/package.html
+Homepage: http://duncanyoyo1.github.io
+Maintainer: Keenan Conner <eduncanyoyo1@gmail.com>
+Author: Keenan Conner <duncanyoyo1@gmail.com>
+Section: Utilities

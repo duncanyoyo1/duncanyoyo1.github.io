@@ -1,0 +1,35 @@
+#!/bin/bash
+echo "Stopping useless services via launchctl..."
+launchctl stop com.apple.atc.atwakeup
+launchctl unload /Library/LaunchDaemons/com.apple.atc.atwakeup
+launchctl remove com.apple.atc.atwakeup
+launchctl stop com.matchstic.InfoStats2-Weather-Provider
+launchctl unload com.matchstic.InfoStats2-Weather-Provider
+launchctl remove com.matchstic.InfoStats2-Weather-Provider
+echo "Useless services stopped!"
+echo "Deleting syslog to save space..."
+FILENAME=/var/log/syslog
+FILESIZE=$(stat -c%s "$FILENAME")
+echo "Size of $FILENAME is $FILESIZE bytes."
+launchctl unload /System/Library/LaunchDaemons/com.apple.syslogd.plist
+launchctl unload /Library/LaunchDaemons/com.apple.syslogd.plist
+echo "Syslog service stopped!"
+rm /var/log/syslog
+echo "Syslog deleted!"
+touch /var/log/syslog
+echo "Empty syslog created!"
+launchctl load /System/Library/LaunchDaemons/com.apple.syslogd.plist
+launchctl load /Library/LaunchDaemons/com.apple.syslogd.plist
+echo "Syslog service restarted!"
+echo "Setting priority of SpringBoard and backboardd"
+pid=$(ps -ef | grep 'backboardd' | grep -v grep | awk '{print $2}')
+renice -n 20 -p $pid
+pid2=$(ps -ef | grep 'SpringBoard' | grep -v grep | awk '{print $2}')
+renice -n 20 -p $pid2
+read -p "Press any key to continue... " -n1 -s
+clear
+echo "Useless services stopped."
+echo "Syslog cleaned."
+echo "SpringBoard and backboardd priority set to 20."
+echo "Hopefully this will help your battery life!"
+echo "Script by /u/Duncanyoyo1 11/24/16"
