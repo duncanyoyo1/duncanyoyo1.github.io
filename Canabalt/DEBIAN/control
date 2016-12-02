@@ -1,6 +1,6 @@
 Package: com.duncanyoyo1.canabalt
 Name: Canabalt 
-Version: 1.0
+Version: 1.0.0.0.1
 Architecture: iphoneos-arm
 Description: Open Source release of Canabalt by Semi Secret Software LLC.
 Depiction: http://duncanyoyo1.github.io/depic/canabalt.html
