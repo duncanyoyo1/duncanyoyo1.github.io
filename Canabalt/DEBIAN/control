@@ -1,0 +1,10 @@
+Package: com.duncanyoyo1.canabalt
+Name: Canabalt 
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Open Source release of Canabalt by Semi Secret Software LLC.
+Depiction: http://duncanyoyo1.github.io/depic/canabalt.html
+Homepage: http://duncanyoyo1.github.io/index.html
+Maintainer: Keenan Conner <eduncanyoyo1@gmail.com>
+Author: Keenan Conner <duncanyoyo1@gmail.com>
+Section: Games
