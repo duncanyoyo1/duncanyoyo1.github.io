@@ -1,0 +1,10 @@
+Package: com.duncanyoyo1.RetroArch
+Name: RetroArch9
+Version: 1.3.6.1
+Architecture: iphoneos-arm
+Description: A multiple console emulator for iOS 9
+Depiction: http://duncanyoyo1.github.io/depic/retroarch.html
+Homepage: http://duncanyoyo1.github.io/index.html
+Maintainer: Keenan Conner <eduncanyoyo1@gmail.com>
+Author: Keenan Conner <duncanyoyo1@gmail.com>
+Section: Games
