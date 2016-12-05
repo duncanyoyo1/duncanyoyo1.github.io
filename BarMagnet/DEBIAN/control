@@ -1,0 +1,10 @@
+Package: com.duncanyoyo1.BarMagnet
+Name: BarMagnet
+Version: 1.9.2
+Architecture: iphoneos-arm
+Description: BarMagnet is a simple torrent remote controller for iOS 5, 6 and 7.
+Depiction: http://duncanyoyo1.github.io/depic/barmagnet.html
+Homepage: http://duncanyoyo1.github.io/index.html
+Maintainer: Keenan Conner <eduncanyoyo1@gmail.com>
+Author: Keenan Conner <duncanyoyo1@gmail.com>
+Section: Utilities
