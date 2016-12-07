@@ -1,6 +1,6 @@
 Package: com.duncanyoyo1.retroarchemu
 Name: RetroArchEmu
-Version: 1.3.6.0b10
+Version: 1.3.6.0b11
 Architecture: iphoneos-arm
 Description: A multiple console emulator for iOS 9
 Depiction: http://duncanyoyo1.github.io/depic/retroarch.html
