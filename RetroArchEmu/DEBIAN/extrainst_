@@ -32,7 +32,7 @@ if [[ `basename $0` == "extrainst_" ]]; then
 		;;
 	upgrade )
 		echo Removing
-		finish return
+		finish restart
 		;;
 	esac
 elif [[ `basename $0` == "postrm" ]]; then
