@@ -11,7 +11,7 @@
 ##
 # Historically, 'restart' restarted springboard but did not reload the launchdaemon.
 # (reload was used for this purpose.) Now, restart and reload are equivalent.
-function finish() {
+function finish(restart) {
 	f="${1}"
 
 	# No control fd: bail out
