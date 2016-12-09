@@ -80,6 +80,10 @@
 		<data>
 		1EvJlhXuxgu+0LfEhHbTrgfmvyk=
 		</data>
+		<key>Info.plist</key>
+		<data>
+		8FGzu1tQL5LXnkpp9OCUmSS+4tM=
+		</data>
 		<key>LaunchImage-568h@2x.png</key>
 		<data>
 		cWTR1iVeBNy/enhF0H1EcY1e+wA=
@@ -146,15 +150,11 @@
 		</data>
 		<key>PauseIndicatorView.nib</key>
 		<data>
-		ojrzYUpQ1ark6HTqpcfJwN8yDhM=
+		Q4TGoTIQ834OyNyRcTxP5Qy/rOk=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
-		</data>
-		<key>RetroArch</key>
-		<data>
-		lL4K4avR1X5QYMg/RZKTyoLO4H0=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -569,22 +569,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ojrzYUpQ1ark6HTqpcfJwN8yDhM=
+			Q4TGoTIQ834OyNyRcTxP5Qy/rOk=
 			</data>
 			<key>hash2</key>
 			<data>
-			8NpSf+qYWAR5uG9iDQkQ8Pct+f0/pjzBKzY10xs5p48=
-			</data>
-		</dict>
-		<key>RetroArch</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lL4K4avR1X5QYMg/RZKTyoLO4H0=
-			</data>
-			<key>hash2</key>
-			<data>
-			jF5gGahlXAV10101GM02rRIEUnQ9a091AnYmmG1YeNU=
+			D9z5d7zYgvzp39pLFub/Lmqbvv7Lj8fE+Raf8ziETuo=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
