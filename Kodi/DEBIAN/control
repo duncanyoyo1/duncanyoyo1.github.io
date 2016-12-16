@@ -6,6 +6,7 @@ Version: 18.0-0~alpha1
 Architecture: iphoneos-arm
 Installed-Size: 131760
 Description: Kodi Entertainment Center for iOS
+Depiction: http://duncanyoyo1.github.io/depic/kodi.html
 Homepage: http://kodi.tv/
 Maintainer: Memphiz
 Author: Team-Kodi
