@@ -1,0 +1,13 @@
+Package: org.xbmc.kodi-ios
+Name: Kodi-iOS
+Depends: firmware (>= 5.1)
+Priority: Extra
+Version: 18.0-0~alpha1
+Architecture: iphoneos-arm
+Installed-Size: 131760
+Description: Kodi Entertainment Center for iOS
+Homepage: http://kodi.tv/
+Maintainer: Memphiz
+Author: Team-Kodi
+Section: Multimedia
+Icon: file:///Applications/Kodi.app/AppIcon57x57.png

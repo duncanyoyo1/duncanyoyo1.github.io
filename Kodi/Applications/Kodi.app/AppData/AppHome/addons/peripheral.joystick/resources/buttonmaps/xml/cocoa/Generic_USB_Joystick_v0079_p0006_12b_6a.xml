@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<buttonmap>
+    <device name="Generic   USB  Joystick" provider="cocoa" vid="0079" pid="0006" buttoncount="12" axiscount="6">
+        <controller id="game.controller.default">
+            <feature name="a" button="2" />
+            <feature name="b" button="3" />
+            <feature name="leftstick">
+                <up axis="-2" />
+                <down axis="+2" />
+                <right axis="+1" />
+                <left axis="-1" />
+            </feature>
+            <feature name="rightstick">
+                <up button="0" />
+                <right axis="-3" />
+            </feature>
+            <feature name="y" button="1" />
+        </controller>
+    </device>
+</buttonmap>
