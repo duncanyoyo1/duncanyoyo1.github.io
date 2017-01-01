@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttonmap>
+  <!-- This contains a subset of the default controller so that the remaining -->
+  <!-- buttons are passed to Kodi instead of being captured unused by the game -->
+  <controller id="game.controller.default" type="analog">
+    <feature name="up" mapto="up"/>
+    <feature name="down" mapto="down"/>
+    <feature name="right" mapto="right"/>
+    <feature name="left" mapto="left"/>
+    <feature name="start" mapto="start"/>
+    <feature name="select" mapto="select"/>
+  </controller>
+</buttonmap>

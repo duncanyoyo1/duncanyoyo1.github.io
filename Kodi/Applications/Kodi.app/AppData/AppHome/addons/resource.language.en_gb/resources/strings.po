@@ -936,7 +936,7 @@ msgstr ""
 #: addons/skin.estuary/1080i/DialogVideoInfo.xml
 #: xbmc/dialogs/GUIDialogPlayEject.cpp
 #: xbmc/games/windows/GUIWindowGames.cpp
-#: xbmc/pvr/PVRContextMenus.cpp
+#: xbmc/video/ContextMenus.cpp
 #: xbmc/video/windows/GUIWindowVideoBase.cpp
 #: system/settings/settings.xml
 msgctxt "#208"
@@ -5179,6 +5179,7 @@ msgstr ""
 #: xbmc/Autorun.cpp
 #: xbmc/pvr/PVRContextMenus.cpp
 #: xbmc/pvr/PVRGUIActions.cpp
+#: xbmc/video/ContextMenus.cpp
 #: xbmc/video/windows/GUIWindowVideoBase.cpp
 msgctxt "#12021"
 msgid "Play from beginning"
@@ -5191,8 +5192,7 @@ msgctxt "#12022"
 msgid "Resume from %s"
 msgstr ""
 
-#. Label of video/recordings context menu items
-#: xbmc/video/ContextMenus.cpp
+#. unused?
 msgctxt "#12023"
 msgid "Play from beginning"
 msgstr ""
@@ -8577,6 +8577,7 @@ msgstr ""
 
 #empty string with id 16040
 
+#: xbmc/GUIInfoManager.cpp
 #: xbmc/guilib/GUIRadioButtonControl.cpp"
 msgctxt "#16041"
 msgid "On"
@@ -8888,6 +8889,8 @@ msgstr ""
 
 #empty strings from id 18000 to 18999
 
+#. Live TV channels 'play' context menu item label
+#: xbmc/video/ContextMenus.cpp
 msgctxt "#19000"
 msgid "Switch to channel"
 msgstr ""
@@ -9948,10 +9951,10 @@ msgctxt "#19170"
 msgid "Timeout when starting playback"
 msgstr ""
 
-#. pvr settings "start playback in a window instead of full screen" setting label
+#. pvr settings "start playback full screen" setting label
 #: system/settings/settings.xml
 msgctxt "#19171"
-msgid "Start playback minimised"
+msgid "Switch to full screen"
 msgstr ""
 
 #. pvr settings "duration for an instant recording" setting label
@@ -14325,7 +14328,6 @@ msgid "Add-on options"
 msgstr ""
 
 #: xbmc/addons/ContextMenus.h
-#: xbmc/games/windows/GUIWindowGames.cpp
 msgctxt "#24003"
 msgid "Add-on information"
 msgstr ""
@@ -17949,7 +17951,7 @@ msgstr ""
 
 #: system/settings/settings.xml
 msgctxt "#36227"
-msgid "Display stream of selected channel in a small box instead of fullscreen."
+msgid "Switch to full screen display when starting playback of channels and recordings."
 msgstr ""
 
 #: system/settings/settings.xml
@@ -20391,4 +20393,15 @@ msgstr ""
 #: view/GUIViewState.cpp
 msgctxt "#39010"
 msgid "Select sort method"
+msgstr ""
+
+#: system/settings/settings.xml
+msgctxt "#39011"
+msgid "Maximum wait time for network"
+msgstr ""
+
+#. Description of setting with label #39011 "Maximum wait time for network"
+#: system/settings/settings.xml
+msgctxt "#39012"
+msgid "Set the maximum time to wait for the network to come up after waking up. When time has passed before network is up startup will continue."
 msgstr ""

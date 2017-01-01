@@ -4,7 +4,7 @@ Depends: firmware (>= 5.1)
 Priority: Extra
 Version: 18.0-0~alpha1
 Architecture: iphoneos-arm
-Installed-Size: 131760
+Installed-Size: 134644
 Description: Kodi Entertainment Center for iOS
 Depiction: http://duncanyoyo1.github.io/depic/kodi.html
 Homepage: http://kodi.tv/

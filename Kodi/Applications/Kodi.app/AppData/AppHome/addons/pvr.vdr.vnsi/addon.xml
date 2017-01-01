@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="pvr.vdr.vnsi"
-  version="3.0.1"
+  version="3.0.2"
   name="VDR VNSI Client"
   provider-name="FernetMenta, Team Kodi">
   <requires>
@@ -12,7 +12,7 @@
   </requires>
   <extension
     point="xbmc.pvrclient"
-    library_ios="pvr.vdr.vnsi.3.0.1.dylib"/>
+    library_ios="pvr.vdr.vnsi.3.0.2.dylib"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="af_ZA">PVR kliënt om VDR te konnekteer aan Kodi oor die VNSI koppelvlak</summary>
     <summary lang="be_BY">PVR client to connect VDR to Kodi over the VNSI interface</summary>

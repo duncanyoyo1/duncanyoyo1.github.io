@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="pvr.mythtv"
-  version="5.0.4"
+  version="5.0.8"
   name="MythTV PVR Client"
   provider-name="Christian Fetzer, Jean-Luc Barrière">
   <requires>
@@ -12,7 +12,7 @@
   </requires>
   <extension
     point="xbmc.pvrclient"
-    library_ios="pvr.mythtv.5.0.4.dylib"/>
+    library_ios="pvr.mythtv.5.0.8.dylib"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="af_ZA">Kodi voorprogram vir MythTV</summary>
     <summary lang="be_BY">Kodi frontend for MythTV</summary>
